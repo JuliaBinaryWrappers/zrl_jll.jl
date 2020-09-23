@@ -1,113 +1,113 @@
 [[zrl]]
 arch = "aarch64"
-git-tree-sha1 = "6b0d1a4d7580bd1866c92ab623d8cb2acbbb2051"
+git-tree-sha1 = "df93f97c9e7bd1b834c70b096c6dd84945e70559"
+libc = "glibc"
+os = "linux"
+
+    [[zrl.download]]
+    sha256 = "89c6cdd66ef746ebfb4c57a56dfa57e0029bb5b07687942a1fa53aefdb909f6b"
+    url = "https://github.com/JuliaBinaryWrappers/zrl_jll.jl/releases/download/zrl-v1.1.1+0/zrl.v1.1.1.aarch64-linux-gnu.tar.gz"
+[[zrl]]
+arch = "aarch64"
+git-tree-sha1 = "2b24a22b0f8efcb66d0a2f846839f6ddc23baee9"
 libc = "musl"
 os = "linux"
 
     [[zrl.download]]
-    sha256 = "5960627ca0fb71e82cffea221ab8daef164ce5a7057b224caec8f2d8ca2b6902"
-    url = "https://github.com/JuliaBinaryWrappers/zrl_jll.jl/releases/download/zrl-v1.1.0+0/zrl.v1.1.0.aarch64-linux-musl.tar.gz"
+    sha256 = "286aad6dec9ab02a788fc56aec36c157c8d5d51eebb5e378c50189f70ad3b15a"
+    url = "https://github.com/JuliaBinaryWrappers/zrl_jll.jl/releases/download/zrl-v1.1.1+0/zrl.v1.1.1.aarch64-linux-musl.tar.gz"
+[[zrl]]
+arch = "armv7l"
+git-tree-sha1 = "e0793e318a4680246e3c22eda7020eb67140aa13"
+libc = "glibc"
+os = "linux"
+
+    [[zrl.download]]
+    sha256 = "22e57605b9add467c76dcd71f500fdc64b3292df99011858dfea4f2c068c9a4e"
+    url = "https://github.com/JuliaBinaryWrappers/zrl_jll.jl/releases/download/zrl-v1.1.1+0/zrl.v1.1.1.armv7l-linux-gnueabihf.tar.gz"
+[[zrl]]
+arch = "armv7l"
+git-tree-sha1 = "ce667e2615554990b0f69ccd1b91f43452d9a8b2"
+libc = "musl"
+os = "linux"
+
+    [[zrl.download]]
+    sha256 = "dfcf70fc694c088607ad709ac4dd6227ff60ee6ea330adbd95f12e67f9fe82ac"
+    url = "https://github.com/JuliaBinaryWrappers/zrl_jll.jl/releases/download/zrl-v1.1.1+0/zrl.v1.1.1.armv7l-linux-musleabihf.tar.gz"
 [[zrl]]
 arch = "i686"
-git-tree-sha1 = "52724e13165ff757023e6763901124a24e834e38"
+git-tree-sha1 = "e0136d91ed03d9bd2e09092af759cac5824f5a0f"
+libc = "glibc"
+os = "linux"
+
+    [[zrl.download]]
+    sha256 = "9aa8659ccff387258e11e6582470c093b689df903cdd9459199c43d8094c9b9b"
+    url = "https://github.com/JuliaBinaryWrappers/zrl_jll.jl/releases/download/zrl-v1.1.1+0/zrl.v1.1.1.i686-linux-gnu.tar.gz"
+[[zrl]]
+arch = "i686"
+git-tree-sha1 = "4950e705b016862c238b372f96c01152d49650d0"
+libc = "musl"
+os = "linux"
+
+    [[zrl.download]]
+    sha256 = "866a94a6a3fa8f3e297b5268f737035d914198bc9a62e4fcaa49742e22226833"
+    url = "https://github.com/JuliaBinaryWrappers/zrl_jll.jl/releases/download/zrl-v1.1.1+0/zrl.v1.1.1.i686-linux-musl.tar.gz"
+[[zrl]]
+arch = "i686"
+git-tree-sha1 = "78d2d297b72006f9b4226f9c131581e2759ef2d5"
 os = "windows"
 
     [[zrl.download]]
-    sha256 = "cc853fd02d379f786a153b3be1d1c4314ac3f65e6dcd8a0af0f11d22874ccd16"
-    url = "https://github.com/JuliaBinaryWrappers/zrl_jll.jl/releases/download/zrl-v1.1.0+0/zrl.v1.1.0.i686-w64-mingw32.tar.gz"
-[[zrl]]
-arch = "x86_64"
-git-tree-sha1 = "c31a7f389735dc861a0a62062d4665e4b69331b0"
-libc = "musl"
-os = "linux"
-
-    [[zrl.download]]
-    sha256 = "94b313c62609c6e5b7edc7442f87a457bbb89538ad0345eb3ea72f9c95a90f37"
-    url = "https://github.com/JuliaBinaryWrappers/zrl_jll.jl/releases/download/zrl-v1.1.0+0/zrl.v1.1.0.x86_64-linux-musl.tar.gz"
-[[zrl]]
-arch = "i686"
-git-tree-sha1 = "4c38474900fb2496d07351cde9084c4db6b39b2b"
-libc = "glibc"
-os = "linux"
-
-    [[zrl.download]]
-    sha256 = "78e03ab09f2076c1e65905c753c54522be82591c49b19f8be5aca7ac0baa75f5"
-    url = "https://github.com/JuliaBinaryWrappers/zrl_jll.jl/releases/download/zrl-v1.1.0+0/zrl.v1.1.0.i686-linux-gnu.tar.gz"
-[[zrl]]
-arch = "armv7l"
-git-tree-sha1 = "138e8acd5808ae9815630784ad5fa188dd630c3a"
-libc = "glibc"
-os = "linux"
-
-    [[zrl.download]]
-    sha256 = "e1a1d9bc4bd08264598745f1dbfbd7ab0a3c31c074f4e8415ba7fc0aa68cc6a5"
-    url = "https://github.com/JuliaBinaryWrappers/zrl_jll.jl/releases/download/zrl-v1.1.0+0/zrl.v1.1.0.armv7l-linux-gnueabihf.tar.gz"
-[[zrl]]
-arch = "aarch64"
-git-tree-sha1 = "9a77a6472b7c8eb1f740c2c50b5cf4388b6723dd"
-libc = "glibc"
-os = "linux"
-
-    [[zrl.download]]
-    sha256 = "237cf9815c6b19b8d1e4c06c05ce120880dab7be5cf2b0fa469f469039ad1b23"
-    url = "https://github.com/JuliaBinaryWrappers/zrl_jll.jl/releases/download/zrl-v1.1.0+0/zrl.v1.1.0.aarch64-linux-gnu.tar.gz"
-[[zrl]]
-arch = "x86_64"
-git-tree-sha1 = "6eff1615beb86781032fcf0212a6ae43b9272399"
-libc = "glibc"
-os = "linux"
-
-    [[zrl.download]]
-    sha256 = "12f4e4a60251403f6557a14a99d80c3d769ff3427dd11462ce3d4d84433924cc"
-    url = "https://github.com/JuliaBinaryWrappers/zrl_jll.jl/releases/download/zrl-v1.1.0+0/zrl.v1.1.0.x86_64-linux-gnu.tar.gz"
+    sha256 = "f26e1dca9ceb352b15e20bf9fb89f85a85b68d56c4051755cdb3b7820ddd7138"
+    url = "https://github.com/JuliaBinaryWrappers/zrl_jll.jl/releases/download/zrl-v1.1.1+0/zrl.v1.1.1.i686-w64-mingw32.tar.gz"
 [[zrl]]
 arch = "powerpc64le"
-git-tree-sha1 = "2066257443a9af67e8e119ac5edd915ee16b21a0"
+git-tree-sha1 = "9faf2db5ab1c393593fce8b02f285abd96610183"
 libc = "glibc"
 os = "linux"
 
     [[zrl.download]]
-    sha256 = "b427658eb3dbf28511902199ce60792b1af3e65072c63c0d3849b63f10cbc613"
-    url = "https://github.com/JuliaBinaryWrappers/zrl_jll.jl/releases/download/zrl-v1.1.0+0/zrl.v1.1.0.powerpc64le-linux-gnu.tar.gz"
+    sha256 = "d8c0ca5a766bbb33898d1f4f5f4960cf18d3d982caa64c54c86c675236994bfd"
+    url = "https://github.com/JuliaBinaryWrappers/zrl_jll.jl/releases/download/zrl-v1.1.1+0/zrl.v1.1.1.powerpc64le-linux-gnu.tar.gz"
 [[zrl]]
 arch = "x86_64"
-git-tree-sha1 = "c42c7660b21cff4f90174ddd299f419087d4c54f"
+git-tree-sha1 = "6233a45298e1a623016044e31d8ee4b1f1403d83"
 os = "macos"
 
     [[zrl.download]]
-    sha256 = "2c12fdc5eed4c16b2dca05b7f90e1ea1ec4934f3c3b144bffd2e37f7bad78568"
-    url = "https://github.com/JuliaBinaryWrappers/zrl_jll.jl/releases/download/zrl-v1.1.0+0/zrl.v1.1.0.x86_64-apple-darwin14.tar.gz"
+    sha256 = "354d7bfc7c43668db2aa48bcf64fbbe0918e86da57b8b27d7b7a392300b47d00"
+    url = "https://github.com/JuliaBinaryWrappers/zrl_jll.jl/releases/download/zrl-v1.1.1+0/zrl.v1.1.1.x86_64-apple-darwin14.tar.gz"
 [[zrl]]
 arch = "x86_64"
-git-tree-sha1 = "467e9db2cc99272e5d47cb9009dca35c68b4abca"
+git-tree-sha1 = "47786901f044f055d5a6e0f2122991e0ffde1015"
+libc = "glibc"
+os = "linux"
+
+    [[zrl.download]]
+    sha256 = "828ad8e2b1b8577cb84f20d1668a46ed84d42f125df43585b3453547c5e535ef"
+    url = "https://github.com/JuliaBinaryWrappers/zrl_jll.jl/releases/download/zrl-v1.1.1+0/zrl.v1.1.1.x86_64-linux-gnu.tar.gz"
+[[zrl]]
+arch = "x86_64"
+git-tree-sha1 = "a704b6fbf44e46cd3b58bf3821d5d45f2410cdab"
+libc = "musl"
+os = "linux"
+
+    [[zrl.download]]
+    sha256 = "ff068057f27c4962b5f6e217115eb82bd3e595447f264cbf32bc2b2068726a00"
+    url = "https://github.com/JuliaBinaryWrappers/zrl_jll.jl/releases/download/zrl-v1.1.1+0/zrl.v1.1.1.x86_64-linux-musl.tar.gz"
+[[zrl]]
+arch = "x86_64"
+git-tree-sha1 = "0abaca55117a5346b4d9cf3e81929d7bc950828b"
 os = "freebsd"
 
     [[zrl.download]]
-    sha256 = "36b6aafd27e9308d553cf6c5371f82f89857b3896617b755a90dff717612aef2"
-    url = "https://github.com/JuliaBinaryWrappers/zrl_jll.jl/releases/download/zrl-v1.1.0+0/zrl.v1.1.0.x86_64-unknown-freebsd11.1.tar.gz"
-[[zrl]]
-arch = "i686"
-git-tree-sha1 = "e7f1f90608ca790ed7960c741b8a28faa632057c"
-libc = "musl"
-os = "linux"
-
-    [[zrl.download]]
-    sha256 = "8bf13a05135cbbcf2e68cf83138c5a17906c9e220ddd503ace807ef439a22095"
-    url = "https://github.com/JuliaBinaryWrappers/zrl_jll.jl/releases/download/zrl-v1.1.0+0/zrl.v1.1.0.i686-linux-musl.tar.gz"
-[[zrl]]
-arch = "armv7l"
-git-tree-sha1 = "6264465e54cb6052eaa2229b93f68b67e70066a4"
-libc = "musl"
-os = "linux"
-
-    [[zrl.download]]
-    sha256 = "0f5812ed619efed6a438be9e4e56a3b5a182b26981f3610d22ac10126365497f"
-    url = "https://github.com/JuliaBinaryWrappers/zrl_jll.jl/releases/download/zrl-v1.1.0+0/zrl.v1.1.0.armv7l-linux-musleabihf.tar.gz"
+    sha256 = "22abda738b174607efc9bbebefbe02877adb5cf7d551e22cf49d5c258858c0e9"
+    url = "https://github.com/JuliaBinaryWrappers/zrl_jll.jl/releases/download/zrl-v1.1.1+0/zrl.v1.1.1.x86_64-unknown-freebsd11.1.tar.gz"
 [[zrl]]
 arch = "x86_64"
-git-tree-sha1 = "56ea9d430370035c5777f365bcc099e605ae809f"
+git-tree-sha1 = "1d74edbc9ba16de19f6fbe890a98571302dcea18"
 os = "windows"
 
     [[zrl.download]]
-    sha256 = "92a633b578f3514ecf8bac630861bec673414e17f4ae3608041d2e72dbde0cb2"
-    url = "https://github.com/JuliaBinaryWrappers/zrl_jll.jl/releases/download/zrl-v1.1.0+0/zrl.v1.1.0.x86_64-w64-mingw32.tar.gz"
+    sha256 = "8668cd147e3d0653ad57cdaa5020d49f9a17884777a20523407c441fd9e0b0f9"
+    url = "https://github.com/JuliaBinaryWrappers/zrl_jll.jl/releases/download/zrl-v1.1.1+0/zrl.v1.1.1.x86_64-w64-mingw32.tar.gz"
